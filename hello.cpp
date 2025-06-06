@@ -13,6 +13,10 @@ int fib(int n){
 int main(){
 	std::cout << "Hello world";
 	std::cout << "\n";
-	std::cout << fib(10);
+	int n;
+	std::cin >> n;
+	for (int i = 0; i < n; i++){
+		std::cout << fib(i) << "\n";
+	}
 	return 0;
 }
